@@ -1,0 +1,19 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  text-align: center;
+  gap: 10px;
+}
+h2 {
+  font-size: 2rem;
+}
+
+a {
+  color: #010101;
+  transition: all 0.3s;
+}
+
+a:hover {
+  color: #dec129;
+}

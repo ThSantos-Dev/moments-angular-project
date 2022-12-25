@@ -1,0 +1,47 @@
+header {
+  max-width: 1440px;
+
+  margin: auto;
+  padding: 0.5rem 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  font-weight: bold;
+
+  cursor: pointer;
+}
+
+.logo img {
+  width: 80px;
+  object-fit: cover;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #111;
+  font-weight: 500;
+  transition: all .3s;
+  padding: .4rem 1rem;
+  outline: 1px solid transparent;
+
+}
+
+.nav-links a:hover {
+  outline-color: gold;
+  color: gold;
+}
